@@ -1,5 +1,4 @@
-# 全台測速分析系統   
-(Speed Camera Analysis System)  
+# 全台測速分析系統 (Speed Camera Analysis System)  
 
 ## 目前已將本專案託管於firebase
 
