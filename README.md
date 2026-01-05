@@ -68,7 +68,7 @@
 
 ---
 
-## � 專案結構 (File Structure)
+## 專案結構 (File Structure)
 
 ```text
 .
@@ -96,7 +96,7 @@
 
 ---
 
-## �🚀 如何在本地執行 (Local Development)
+## 🚀 如何在本地執行 (Local Development)
 
 1.  **Clone 專案**
     ```bash
