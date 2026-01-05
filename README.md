@@ -68,7 +68,35 @@
 
 ---
 
-## 🚀 如何在本地執行 (Local Development)
+## � 專案結構 (File Structure)
+
+```text
+.
+├── .firebaserc                # Firebase 專案設定
+├── deploy.bat                 # Windows 快速部署腳本
+├── firebase.json              # Firebase Hosting & Firestore 設定
+├── start_app.bat              # 快速啟動腳本
+├── README.md                  # 專案說明文件
+├── client/                    # (Legacy) 舊版前端編譯輸出或備份
+└── web-app/
+    ├── client/                # 前端主程式 (React + Vite)
+    │   ├── public/            # 靜態資源
+    │   ├── src/               # 原始碼
+    │   ├── index.html         # 入口 HTML
+    │   ├── package.json       # 前端依賴設定
+    │   ├── vite.config.js     # Vite 設定
+    │   ├── tailwind.config.js # Tailwind 樣式設定
+    │   └── ...
+    └── server/                # 後端主程式 (Express + Firebase Admin)
+        ├── db.json            # (Legacy) 本地 mock 資料庫
+        ├── server.js          # Express 伺服器入口
+        ├── migrate.js         # 資料遷移腳本
+        └── ...
+```
+
+---
+
+## �🚀 如何在本地執行 (Local Development)
 
 1.  **Clone 專案**
     ```bash
